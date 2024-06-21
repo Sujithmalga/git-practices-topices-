@@ -1,0 +1,45 @@
+GIT COMMANDS &USAGE
+
+Git topices:- 
+
+ . How they work in real time
+ . About Working directory
+ . Staging directory
+ . Local directory
+
+
+ Git Commands
+        
+| Command                                    | Description                                                                                  |
+|--------------------------------------------|----------------------------------------------------------------------------------------------|
+| `git init`                                 | Initialize a new Git repository.                                                             |
+| `git config --global user.name "username"` | Set the global Git username for commits.                                                     |
+| `git config --global user.email "email"`   | Set the global Git email for commits.                                                        |
+| `git add <filename>`                       | Add specific file(s) to the staging area.                                                    |
+| `git commit -m "message"`                  | Commit the staged changes with a commit message.                                             |
+| `git remote add <name> <url>`              | Add a new remote repository with a specified name and URL.                                   |
+| `git remote`                               | List all configured remote repositories.                                                     |
+| `git push`                                 | Push local commits to the remote repository.                                                 |
+| `git fetch`                                | Fetch updates from the remote repository without merging.                                    |
+| `git pull`                                 | Fetch and merge updates from the remote repository into the current branch.                  |
+| `git merge <branch>`                       | Merge specified branch into the current branch.                                              |
+| `git rebase <branch>`                      | Reapply commits on top of another base tip.                                                  |
+| `git checkout <branch>`                    | Switch to a different branch.                                                                |
+| `git clone <url>`                          | Clone a repository into a new directory.                                                     |
+| `git reset <commit>`                       | Reset current HEAD to the specified state.                                                   |
+| `git branch`                               | List all local branches.                                                                     |
+| `git branch <name>`                        | Create a new branch with the specified name.                                                 |
+| `git log`                                  | Show the commit logs.                                                                        |
+| `git stash`                                | Stash th
+
+
+---------------------------------------------------------------------------------------------------------working directory    
+1)Working directory :
+it is a place where you work on your file locally up on your 
+project is know as working directory.
+2)Staging area:
+it is temporary holding area after adding a file it will store in staging area to commit next step and it is bridge in between working directory and   local repo.
+3)Local repositoy:
+it is acopy of entire push your changes to remote repository.
+4)Remote repository:project history  and  here the place where we it is a version of your project that hosted on internet or network 
+somewere.  
