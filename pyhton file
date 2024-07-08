@@ -1,0 +1,179 @@
+# def odd_index(list1):
+#     odd = list1[1:6:2]
+#     print(odd)
+
+
+
+
+# list1 = [6,2,8,9,4,1,3]
+# var = odd_index(list1)
+# print(var)
+
+# def list_integer(x):
+#     list1 = []
+#     sum1 = 10
+#     for i in x:
+#         for j in x:
+#             if(i+j == sum1):
+#                 list1.extend([[i,j]])
+               
+#     return list1
+ 
+
+
+# x = [0,1,4,6,8,2,5]
+# var = list_integer(x)
+# print(var)
+
+
+# def count_name(n):
+#     # count = 0
+#         if n%3 == 0:
+#             b = int(n/3)
+#             print(b)
+#         else:
+#           
+#   return f"{n} number is not divisable by 3 "
+
+   
+     
+# # else:
+# #     print(f"{n} number is not divisable by 3 ")
+    
+
+# n = int(input("enter the nuber"))
+# var = count_name(n)
+# print(var)
+
+
+    
+# def prime_factors(n):
+#     list1 = []
+#     d = 2
+#     while n >1:
+#         while n%d == 0:
+#             list1.append(d)
+#             n = n//d
+#         d += 1 
+#     return list1
+
+
+# n= int(input("enter the number"))
+# var = prime_factors(n)
+# print(var)
+
+# import re 
+
+# def findmax_elements(s):
+#     pattern = (r'[a-z]')
+#     a = len(re.findall(pattern,s))
+#     return a
+
+# s = "ABC"
+# var = findmax_elements(s)
+# print(var)
+# with open("a.txt",'r') as file :
+#     x = file.readline()
+#     print(x.lstrip())
+
+# def vowels(str1):
+#     dict1 ={}
+#     vowels1 = ["a","e","i","o","u"]
+#     for j in str1:
+#             if j in dict1:
+#                 dict1[j] += 1
+#             else:
+#                 dict1[j] = 1
+
+
+
+#     var5  = dict1.keys()
+#     b = input()
+#     if b  in var5:
+#             x = dict1.get(b)
+#     else:
+#           print("no letter in str1")
+
+#     return f"number of  times repeated vowel{x}"
+
+# str1 ="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+# var  = vowels(str1)
+# print(var)
+var = "string"
+
+dic1 = {}
+for j in enumerate(var):
+    print(j)
+
+
+
+# list2 = []
+# list1 = ["num",4,True,"hi"]
+
+# var = list()
+
+# tuple1 = ()
+# var2 = tuple()
+
+# var3 = 2,
+
+# print("the type is : ",type(var3))
+
+
+
+#print(list1)
+
+# tuple1=(3,"thunder",20,'20')
+
+
+# print(tuple1.index(20))
+
+# var = "luffy"
+# var = 'g'
+
+# print(var)
+
+
+
+
+
+# list1 = [1,2,3,4]
+
+# a = list1.pop()
+
+
+# print(a)
+
+# #set3 =  set1.difference(set2)
+# set4 = set1.symmetric_difference_update(set2)
+# print(set4)   # a b c   {'a', 4, 5, 'c', 'hi', 'b'}   {4, 5, 'hi', 'b', 'a', 'c'}
+# #print(set3)  # 4 5 hi
+
+# list2 = {1,2,3,4}
+
+# a = list2.pop()
+
+# print(a)
+# print(list2)
+
+
+# str1 = "        hi hello world "
+
+# char = "hil"
+
+
+# # print(len(str1))
+
+# #
+# # print(str1)
+# # print(a)
+
+# # print(len(a))
+
+# a = str1.strip(char)
+
+# print(a)
+
+
+
+
